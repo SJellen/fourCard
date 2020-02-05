@@ -52,6 +52,7 @@ body {
         float: right;
         width: 70px;
         margin-right: 32px;
+        margin-top: 40px;
     }
     h2 {
         margin-left: 32px;
@@ -80,6 +81,7 @@ body {
         float: right;
         width: 70px;
         margin-right: 32px;
+        margin-top: 20px;
     }
     h2 {
         margin-left: 32px;
@@ -107,6 +109,7 @@ body {
         float: right;
         width: 70px;
         margin-right: 32px;
+        margin-top: 40px;
     }
     h2 {
         margin-left: 32px;
@@ -136,6 +139,7 @@ body {
         float: right;
         width: 70px;
         margin-right: 32px;
+        margin-top: 20px;
     }
     h2 {
         margin-left: 32px;
@@ -154,3 +158,178 @@ footer {
         text-decoration: none;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      width: 375px;
+      max-width: fit-content;
+    }
+
+    .lead {
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    padding-top: 10px;
+    .banner {
+        font-size: x-large;
+        width: 350px;
+        font-weight: 200;
+        color: hsl(234, 12%, 34%);
+        margin-bottom: -15px;
+    }
+    .banner2 {
+        font-size: x-large;
+        width: 350px;
+        font-weight: 900;
+        color: hsl(234, 12%, 34%);
+    }
+    .banner3 {
+        width: 300px;
+        margin-left: 20px;
+        font-weight: 200;
+        color: hsla(234, 12%, 34%, .75);
+    }
+
+}
+
+
+.container {
+    justify-content: center;
+    display: inline;
+    
+}
+
+
+.leftBox {
+    
+    background-color: white;
+    width: 350px;
+    height: 246px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 15px hsla(234, 12%, 34%, .2);
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    img {
+        float: right;
+        width: 70px;
+        margin-right: 32px;
+        margin-top: 40px;
+    }
+    h2 {
+        margin-left: 32px;
+        color: hsl(234, 12%, 34%);
+    }
+    h3 {
+        color: hsla(234, 12%, 34%, .5);
+        font-size: small;
+        margin-left: 32px;
+    }
+}
+
+
+.topBox {
+    background-color: white;
+    width: 350px;
+    height: 246px;
+    border-radius: 10px;
+    margin-top: 285px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 15px hsla(234, 12%, 34%, .2);
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    img {
+        float: right;
+        width: 70px;
+        margin-right: 32px;
+        margin-top: 20px;
+    }
+    h2 {
+        margin-left: 32px;
+        color: hsl(234, 12%, 34%);
+    }
+    h3 {
+        color: hsla(234, 12%, 34%, .5);
+        font-size: small;
+        margin-left: 32px;
+    }
+}
+
+
+.bottomBox {
+    background-color: white;
+    width: 350px;
+    height: 246px;
+    border-radius: 10px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 15px hsla(234, 12%, 34%, .2);
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    img {
+        float: right;
+        width: 70px;
+        margin-right: 32px;
+        margin-top: 40px;
+    }
+    h2 {
+        margin-left: 32px;
+        color: hsl(234, 12%, 34%);
+    }
+    h3 {
+        color: hsla(234, 12%, 34%, .5);
+        font-size: small;
+        margin-left: 32px;
+    }
+}
+
+.rightBox {
+    background-color: white;
+    width: 350px;
+    height: 246px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 100px;;
+    box-shadow: 5px 5px 15px hsla(234, 12%, 34%, .2);
+    border-top: 5px solid hsl(212, 86%, 64%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    img {
+        float: right;
+        width: 70px;
+        margin-right: 32px;
+        margin-top: 20px;
+    }
+    h2 {
+        margin-left: 32px;
+        color: hsl(234, 12%, 34%);
+    }
+    h3 {
+        color: hsla(234, 12%, 34%, .5);
+        font-size: small;
+        margin-left: 32px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
