@@ -45,61 +45,133 @@ body {
 .leftBox {
   background-color: white;
   width: 350px;
-  height: 250px;
+  height: 246px;
   border-radius: 10px;
   float: left;
   margin-top: 125px;
   margin-left: 42px;
   -webkit-box-shadow: 5px 5px 15px rgba(76, 78, 97, 0.2);
           box-shadow: 5px 5px 15px rgba(76, 78, 97, 0.2);
+  border-top: 5px solid #45d3d3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .leftBox img {
   float: right;
+  width: 70px;
+  margin-right: 32px;
+}
+
+.leftBox h2 {
+  margin-left: 32px;
+  color: #4c4e61;
+}
+
+.leftBox h3 {
+  color: rgba(76, 78, 97, 0.5);
+  font-size: small;
+  margin-left: 32px;
 }
 
 .topBox {
   background-color: white;
   width: 350px;
-  height: 250px;
+  height: 246px;
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: 30px;
   -webkit-box-shadow: 5px 5px 15px rgba(76, 78, 97, 0.2);
           box-shadow: 5px 5px 15px rgba(76, 78, 97, 0.2);
+  border-top: 5px solid #ea5353;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .topBox img {
   float: right;
+  width: 70px;
+  margin-right: 32px;
+}
+
+.topBox h2 {
+  margin-left: 32px;
+  color: #4c4e61;
+}
+
+.topBox h3 {
+  color: rgba(76, 78, 97, 0.5);
+  font-size: small;
+  margin-left: 32px;
 }
 
 .bottomBox {
   background-color: white;
   width: 350px;
-  height: 250px;
+  height: 246px;
   border-radius: 10px;
   margin: 0 auto;
   -webkit-box-shadow: 5px 5px 15px rgba(76, 78, 97, 0.2);
           box-shadow: 5px 5px 15px rgba(76, 78, 97, 0.2);
+  border-top: 5px solid #fcaf4a;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .bottomBox img {
   float: right;
+  width: 70px;
+  margin-right: 32px;
+}
+
+.bottomBox h2 {
+  margin-left: 32px;
+  color: #4c4e61;
+}
+
+.bottomBox h3 {
+  color: rgba(76, 78, 97, 0.5);
+  font-size: small;
+  margin-left: 32px;
 }
 
 .rightBox {
   background-color: white;
   width: 350px;
-  height: 250px;
+  height: 246px;
   border-radius: 10px;
   float: right;
   margin-top: -409px;
   margin-right: 42px;
   -webkit-box-shadow: 5px 5px 15px rgba(76, 78, 97, 0.2);
           box-shadow: 5px 5px 15px rgba(76, 78, 97, 0.2);
+  border-top: 5px solid #549ef2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .rightBox img {
   float: right;
+  width: 70px;
+  margin-right: 32px;
+}
+
+.rightBox h2 {
+  margin-left: 32px;
+  color: #4c4e61;
+}
+
+.rightBox h3 {
+  color: rgba(76, 78, 97, 0.5);
+  font-size: small;
+  margin-left: 32px;
+}
+
+footer {
+  opacity: .5;
+}
+
+footer a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
