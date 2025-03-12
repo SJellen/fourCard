@@ -8,8 +8,6 @@
 
 > A FrontEnd Mentor challenge: Four Card
 
-### ✨ [Demo](https://abiding-plant.surge.sh)
-
 ## Author
 
 👤 **Scott Jellen**
